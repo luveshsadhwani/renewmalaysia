@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 80%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    flex: 2;
+    text-align: center;
+    font-size: 50px;
+    color: darkgreen;
+}
+
+.logo {
+    height: 300px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px 100px;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div.aboutus {
+    margin-top: 20px;
+    background-image: url("../images/aboutus.jpeg");
+    height: 50vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+div.aboutus h2 {
+    font-size: 40px;
+    position: relative
+}
+
+div.aboutus p {
+    font-size: 18px;
+    font-style: italic;
+    position: relative;
+    bottom: 30px;
+}
+
+.learn, .topstories,.contact {
+    margin-top: 20px;
+}
+
+.learn h2, .topstories h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.story {
+    display: flex;
+    margin: 0px 200px;
+    border-bottom: 2px solid darkgreen;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.story img {
+    width: 400px;
+    padding: 20px;
+
+}
+
+.types, .projects h3 {
+    color:darkgreen;
+}
+
+.energy {
+    width: 20%;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid darkgreen;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+
+.energy img {
+    max-width: 100%;
+    height: 150px;
+}
+
+
+.contact {
+    background-color: #003a0a;
+    height: 20vh;
+    margin: 20px 100px 0px 100px;
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.contact h3 {
+    margin: 0px auto;
+    font-style: italic;
+}
+
+footer {
+    padding: 20px 10px;
+    border: 2px solid #003a0a; 
+    margin: 0px 100px;
+    display: flex;
+    justify-content: center;
+}
